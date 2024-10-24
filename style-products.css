@@ -1,0 +1,141 @@
+/* Google Fonts */
+html {
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+}
+body {
+    background-color: #f0f2f1;
+    font-family: Times, "Times New Roman", Georgia, serif;
+
+}
+
+/* products */
+h3{
+    margin-top: 120px;
+}
+
+.advantages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages > div {
+    display: flex;
+
+}
+
+.advantages > div i {
+    padding: 10px;
+    margin: 20px;
+    color: #D91B5F;
+}
+
+.advantages > div > div {
+    padding: 10px;
+}
+
+.advantages > div > div p {
+    padding: 5px;
+    color: #535B73;
+}
+
+.products .product {
+    margin: 50px 10px ;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-top {
+    padding: 20px 0 50px ;
+    border-bottom: 1px solid #ccc;
+}
+
+.mail {
+    max-width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mail h2 {
+    color: #535B73;
+    margin-bottom: 20px;
+}
+
+.mail input {
+    width: 70%;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.mail input:hover{
+    outline: none;
+    border: 1px solid #D91B5F ;
+}
+
+.mail input:focus{
+    outline: none;
+    border: 1px solid #D91B5F ;
+}
+
+
+
+.mail button {
+    width: 15%;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #D91B5F;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.mail button:hover {
+    background-color: #fff;
+    border: 1px solid #D91B5F;
+    color: #D91B5F;
+}
+.footer-bottom {
+    padding: 20px 0;
+}
+
+.footer-logo h2 {
+    font-family: 'Verdana', sans-serif;
+    color: #00a8a8;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+}
+
+.footer-disclaimer {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #777;
+}
+
+
